@@ -1,0 +1,19 @@
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+  background-color:#ddebf7;
+;
+}
+
+td:nth-child(3){
+  background-color: #f2f2de;
+}

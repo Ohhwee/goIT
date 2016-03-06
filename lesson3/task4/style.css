@@ -1,0 +1,9 @@
+.yandex a {
+  color: red;
+}
+.google a {
+  color: #666;
+}
+:nth-child(5) a:after {
+  content: url(http://lorempixel.com/image_output/technics-q-c-44-42-6.jpg) ;
+}
