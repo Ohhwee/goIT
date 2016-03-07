@@ -1,0 +1,64 @@
+.pager {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+ul {
+  width: 800px;
+  margin: 0 auto;
+  list-style: none;
+}
+li {
+  text-transform: uppercase;
+  float: left;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+li:not([class]) {
+  border-radius: 5px;
+  border: 1px solid rgb(131, 126, 131);
+}
+li:not([class]):hover {
+  background-color: #c745d2;
+}
+a:not([class]):hover {
+  color: rgb(226, 225, 221);
+}
+li .notNumber {
+  border: 0;
+  border-radius: 0;
+}
+a {
+  padding: 7px;
+  color: #9a399a;
+  text-decoration: none;
+}
+.clearfix::after, .clearfix::before {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.first::before {
+  content: "<<"
+}
+.last::after {
+  content: ">>"
+}
+.first, .last {
+  border: 0;
+}
+.first a {
+  border: 0;
+}
+li:nth-child(1), li:nth-child(2), li:nth-child(11), li:nth-child(12) {
+  border: 0;
+}
+li:nth-child(1):hover, li:nth-child(2):hover, li:nth-child(11):hover, li:nth-child(12):hover {
+  background-color: #ccc;
+}
+.first:hover, .last:hover {
+  color:#fff;
+}

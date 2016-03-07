@@ -1,0 +1,33 @@
+.container {
+  background-color: #b6d;
+}
+ul {
+  padding: 0;
+  width: 900px;
+  margin: 0 auto;
+  list-style: none;
+  font-family: Economica;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+ul li {
+  text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+ float: left;
+  width: 127px;
+}
+
+ul li:hover{
+  background-color: #ccc;
+  color: #888;
+  box-shadow: 4px -4px 18px -8px #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.clearfix::after, .clearfix::before {
+  content: " ";
+  display:block;
+  clear: both;
+}
