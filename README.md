@@ -1,2 +1,2 @@
 # goIT
-more then just study
+more than just study
