@@ -61,6 +61,8 @@ ul {
   padding: 0;
   margin: 0;
   margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 li {
   font-size: 15px;
@@ -80,10 +82,13 @@ li:nth-child(even) {
 }*/
 
 input[type="submit"] {
+  box-sizing: border-box;
   color: #fff;
   font-size: 15px;
   padding: 15px 70px;
   margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
   border-radius: 10px;
   background-color: #e6891c;
   border: none;
